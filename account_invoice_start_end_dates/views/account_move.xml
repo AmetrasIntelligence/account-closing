@@ -24,8 +24,8 @@
                 expr="//field[@name='invoice_line_ids']/tree/field[@name='quantity']"
                 position="before"
             >
-                <field name="start_date" />
-                <field name="end_date" />
+                <field name="start_date" optional="hide" />
+                <field name="end_date" optional="hide" />
             </xpath>
             <xpath
                 expr="//field[@name='invoice_line_ids']/form//field[@name='analytic_tag_ids']"
